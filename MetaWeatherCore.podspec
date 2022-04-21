@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author           = { 'zalazara' => 'azalazar@outlook.com.ar' }
   s.source           = { :git => 'https://github.com/zalazara/MetaWeatherCore-iOS.git', :tag => s.version.to_s }
   s.ios.deployment_target = '13.0'
-  s.ios.vendored_frameworks = "MetaWeatherCore.framework"
+  s.ios.vendored_frameworks = "MetaWeatherCore.xcframework"
   s.libraries = "c++"
   s.requires_arc = true
   s.static_framework = true
