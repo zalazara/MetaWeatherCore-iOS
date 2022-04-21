@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.ios.vendored_frameworks = "MetaWeatherCore.framework"
   s.libraries = "c++"
-  s.module_name = "#{s.name}_umbrella"
   s.requires_arc = true
   s.static_framework = true
 end
